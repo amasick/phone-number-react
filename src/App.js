@@ -29,15 +29,15 @@ export class App extends Component {
     return (
       <div className="w-100">
         <Container>
-          <Navbar expand="lg" variant="dark" bg="dark">
+          <Navbar expand="lg" className="bg-purple-900">
             <Container>
-              <Navbar.Brand href="#">Mobile Number Input</Navbar.Brand>
+              <div className="h3 text-purple-100">Mobile Number | Aman Kaushik</div>
             </Container>
           </Navbar>
         </Container>
         <div className="container">
-          <div className="flex justify-content-center align-items-center p-6 flex-wrap bg-slate-200">
-            <div className="flex justify-content-center align-items-center bg-white hover:border-dashed hover:border hover:border-slate-400 rounded-1 flex-wrap m-3">
+          <div className="flex justify-content-center align-items-center p-6 flex-wrap bg-purple-100">
+            <div className="flex justify-content-center align-items-center bg-white hover:border hover:border-slate-400 rounded-1 flex-wrap m-3">
               <div
                 className="flex justify-content-center align-items-center"
                 onChange={this.countryFlagHandler}
@@ -804,7 +804,7 @@ export class App extends Component {
                 maxLength={12}
               />
             </div>
-            <div className="flex w-100 justify-content-center align-items-center m-6 p-6 font-monospace h4 text-slate-700">
+            <div className="flex w-100 justify-content-center align-items-center m-6 p-6 font-monospace h4 text-purple-700">
               <h2>Phone No: </h2>
               <span className="result">
                 {" +"}
